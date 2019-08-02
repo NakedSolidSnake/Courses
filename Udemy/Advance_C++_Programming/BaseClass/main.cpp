@@ -5,7 +5,7 @@ using namespace std;
 
 class Employee{
 
-  private:
+  protected:
     string name;
     double pay;
   public:
@@ -35,6 +35,10 @@ class Employee{
       return this->pay;
     }
 
+    double grossPay(int hours){
+      return pay * hours;
+    }
+
     string toString(){
       stringstream stm;
       stm << name << ": " << pay;
@@ -56,6 +60,10 @@ class Manager : public Employee{
     bool getSalaried() const {
       return this->salaried;
     }
+
+    double grossPay(int hours){
+      return pay; //must protected
+    }
 };
 
 int main()
@@ -64,11 +72,13 @@ int main()
   Employee emp1("Mary Smith", 15.00);
   cout << "Employee name; " << emp1.getName() << endl;
   cout << "Employee pay rate: " << emp1.getPay() << endl;
-
+  cout << "Gross pay: "<< emp1.grossPay(40) << endl;
+ 
   Manager emp2("Bob Brown", 1500, true);
   cout << "Employee name; " << emp2.getName() << endl;
   cout << "Employee pay rate: " << emp2.getPay() << endl;
   cout << "Emp2 salaried? " << emp2.getSalaried() << endl;
+  cout << "Gross pay: "<< emp2.grossPay(40) << endl;
 
   return 0;
 }
