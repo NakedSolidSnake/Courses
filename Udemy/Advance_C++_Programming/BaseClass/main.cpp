@@ -19,6 +19,10 @@ class Employee{
       pay = payRate;
     }
 
+    ~Employee(){
+
+    }
+
     void setName(string name){
       this->name = name;
     }
@@ -51,10 +55,19 @@ class Manager : public Employee{
     bool salaried;
 
   public:
+    Manager() : salaried(true)
+    {
+
+    } 
+
     Manager(string name, double payRate, bool isSalaried)
       : Employee(name, payRate)
     {
       this->salaried = isSalaried;
+    }
+
+    ~Manager(){
+
     }
 
     bool getSalaried() const {
