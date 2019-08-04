@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <vector>
 
 using namespace std;
 
@@ -39,7 +40,7 @@ class Employee{
       return this->pay;
     }
 
-    double grossPay(int hours){
+    virtual double grossPay(int hours){
       return pay * hours;
     }
 
@@ -74,7 +75,7 @@ class Manager : public Employee{
       return this->salaried;
     }
 
-    double grossPay(int hours){
+    virtual double grossPay(int hours){
       if(salaried){
         return pay;
       }else{
@@ -99,14 +100,16 @@ class Manager : public Employee{
 
 int main()
 {
+  vector<Employee *> emps;
+  Employee emp1("Mary Smith", 25.00);
+  emps.push_back(&emp1);
+  Manager emp2("Bob Brown", 1200, true);
+  emps.push_back(&emp2);
 
-  Employee emp1("Mary Smith", 15.00);
-  cout << "Employee name; " << emp1.getName() << endl;
-  cout << "Employee pay rate: " << emp1.getPay() << endl;
-  cout << "Gross pay: "<< emp1.grossPay(40) << endl;
- 
-  Manager emp2("Bob Brown", 1500, true);
-  cout << "Gross pay: " << emp2.grossPay(0);
-  cout << emp2.toString();
+  for(int i = 0; i < emps.size(); i++){
+    cout <<  emps[i]->grossPay(40) << endl;
+  }
+
+
   return 0;
 }
