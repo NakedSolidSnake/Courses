@@ -3,18 +3,22 @@
 
 using namespace std;
 
-void display(int arr[], int size){
+template <typename T>
+void display(T arr[], int size){
   for(int i = 0; i < size; i++){
     cout << arr[i] << " ";
   }
   cout << endl;
 }
 
-void display(string arr[], int size){
-  for(int i = 0; i < size; i++){
-    cout << arr[i] << endl;
-  }
+template <typename T>
+T max(T &arg1, T &arg2){
+  if(arg1 > arg2)
+    return arg1;
+  else
+    return arg2;
 }
+
 int main()
 {
 
@@ -31,6 +35,21 @@ int main()
                    "Mike", "Terri", "Allison", "Mason",
                    "Meredith"};
   display(name, size);
+
+  int a = 12;
+  int b = 24;
+
+  cout << max(a, b) << endl;
+
+  double x = 2.25;
+  double y = .25;
+
+  cout << max(x, y) << endl;
+
+  string w1 = "apple";
+  string w2 = "aardvark";
+
+  cout << max(w1, w2) << endl;
 
   return 0;
 }

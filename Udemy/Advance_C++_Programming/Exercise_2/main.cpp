@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -17,7 +18,7 @@ class Quadrilateral{
       side4 = s4;
     }
 
-    void display(){
+    virtual void display(){
       cout << "Quadrilateral with side: " << side1 << " " << side2 << " " << side3 << " " << side4 << endl;
     }
 };
@@ -28,6 +29,10 @@ class Trapezoid : public Quadrilateral{
       Quadrilateral(s1, s2, s3, s4){
         
       }
+
+    virtual void display(){
+      cout << "Trapezoid with side: " << side1 << " " << side2 << " " << side3 << " " << side4 << endl;
+    }
 };
 
 class Square : public Quadrilateral{
@@ -36,12 +41,20 @@ class Square : public Quadrilateral{
       Quadrilateral(side, side, side, side){
 
       }
+
+    virtual void display(){
+      cout << "Square with side: " << side1 << " " << side2 << " " << side3 << " " << side4 << endl;
+    }
 };
 
 int main(){
+  vector<Quadrilateral *> shapes;
   Trapezoid t1(6,6,6,6);
+  shapes.push_back(&t1);
   Square s1(4);
+  shapes.push_back(&s1);
 
-  t1.display();
-  s1.display();
+  for(int i = 0; i <shapes.size() ; i++){
+    shapes[i]->display();
+  }
 }
