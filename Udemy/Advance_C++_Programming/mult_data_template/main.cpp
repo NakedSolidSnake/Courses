@@ -1,17 +1,33 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;
 
-template <typename T, typename U>
-T max(T arg1, U arg2){
-  return (arg1 > arg2) ? arg1 : arg2;
-}
+template <class T, class U>
+class CMap{
+  private:
+    vector<T> keys;
+    vector<U> values;
+
+  public:
+    void insert(T key, U value){
+      keys.push_back(key);
+      values.push_back(value);
+    }
+
+    void get(int pos){
+      cout << keys[pos] << ": " << values[pos];
+    }
+};
 
 int main()
 {
-  double num1 = 35.56;
-  int num2 = 123;
+  CMap<string, int> grades;
+  grades.insert("Cristiano", 90);
+  grades.insert("Sara", 95);
 
-  cout << "Max value is: " << max(num1, num2) << endl;
+  grades.get(0);
+  grades.get(1);
   return 0;
 }
