@@ -1,0 +1,27 @@
+Tipos de Skills
+
+Smart Home Skill
+Flash Briefing Skill
+Video Skill
+List Skill
+Gadget Skill
+Custom Skill
+
+Custom skill 
+O desenvolvedor tem total controle sobre a experiencia do usuario
+O desenvolvedor define quais skills podem ser manipuladas, como 
+o usuario invoca a skill.
+
+Flask Ask - 
+
+upgrading pip
+
+$ sudo -H pip3 install --upgrade pip
+
+$ sudo pip3 install flask-ask
+
+install ngrok
+
+ngrok.com/download
+
+
