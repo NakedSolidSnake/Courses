@@ -20,7 +20,7 @@ void setup() {
 
 	xTaskCreate(vBlinkLed, "RED Task", 128, (void *)redLed, 1, NULL);
 	xTaskCreate(vBlinkLed, "Yellow Task", 128, (void *)yellowLed, 1, NULL);
-	xTaskCreate(vBlinkLed, "Blue Task", 128, (void *)blueLed, 1, NULL);
+	xTaskCreate(vBlinkLed, "Blue Task", 128, (void *)blueLed, 2, NULL);
 }
 
 void loop() {
