@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-09-06T12:22:34
+# Project created by QtCreator 2019-09-23T07:38:18
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = 01-Teaser
+TARGET = 05-QMessageBox
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -30,9 +30,6 @@ SOURCES += \
 
 HEADERS += \
         widget.h
-
-FORMS += \
-        widget.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
