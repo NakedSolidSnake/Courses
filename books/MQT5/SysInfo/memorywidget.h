@@ -1,11 +1,22 @@
 #ifndef MEMORYWIDGET_H
 #define MEMORYWIDGET_H
 
+#include <QtCharts/QLineSeries>
 
-class MemoryWidget
+#include "sysinfowidget.h"
+
+class MemoryWidget : public SysInfoWidget
 {
+    Q_OBJECT
 public:
-    MemoryWidget();
+    explicit MemoryWidget(QWidget *parent = nullptr);
+
+protected slots:
+    void updateSeries() override;
+
+private:
+    QtCharts::QLineSeries* mSeries;
+    qint64 mPointPostionX;
 };
 
 #endif // MEMORYWIDGET_H

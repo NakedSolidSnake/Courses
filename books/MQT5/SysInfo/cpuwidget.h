@@ -1,17 +1,21 @@
 #ifndef CPUWIDGET_H
 #define CPUWIDGET_H
 
-#include <QObject>
+#include <QtCharts/QPieSeries>
 
-class CpuWidget : public QObject
+#include "sysinfowidget.h"
+
+class CpuWidget : public SysInfoWidget
 {
     Q_OBJECT
 public:
-    explicit CpuWidget(QObject *parent = nullptr);
+    explicit CpuWidget(QWidget *parent = nullptr);
 
-signals:
+protected slots:
+    void updateSeries() override;
 
-public slots:
+private:
+    QtCharts::QPieSeries* mSeries;
 };
 
 #endif // CPUWIDGET_H

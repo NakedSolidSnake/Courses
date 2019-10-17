@@ -15,6 +15,9 @@ public:
     explicit Widget(QWidget *parent = nullptr);
     ~Widget();
 
+public slots:
+    void changeText();
+
 private:
     Ui::Widget *ui;
 };

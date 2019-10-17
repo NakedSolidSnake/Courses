@@ -1,5 +1,7 @@
 #include "widget.h"
 #include "ui_widget.h"
+#include <QDebug>
+#include <QMessageBox>
 
 Widget::Widget(QWidget *parent) :
     QWidget(parent),
@@ -11,4 +13,10 @@ Widget::Widget(QWidget *parent) :
 Widget::~Widget()
 {
     delete ui;
+}
+
+void Widget::on_pushButton_clicked()
+{
+    qDebug() << "User clicked on a button";
+    QMessageBox::information(this, "Message", "You clicked on that button", QMessageBox::Button::Ok);
 }
