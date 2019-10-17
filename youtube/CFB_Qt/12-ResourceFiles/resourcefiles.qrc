@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/imgs">
+        <file>imagens/circuito_motores.jpg</file>
+        <file>imagens/cms168_sch.jpg</file>
+    </qresource>
+</RCC>

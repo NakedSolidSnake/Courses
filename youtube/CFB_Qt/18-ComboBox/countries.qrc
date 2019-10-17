@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>icons/Argentina.png</file>
+        <file>icons/brazil.png</file>
+        <file>icons/Italy.png</file>
+        <file>icons/Portugal.png</file>
+    </qresource>
+</RCC>
