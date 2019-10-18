@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/splash">
+        <file>img/high-moon-studios-logo-600x300.jpg</file>
+    </qresource>
+</RCC>
