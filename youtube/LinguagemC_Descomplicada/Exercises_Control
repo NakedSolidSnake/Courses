@@ -233,7 +233,7 @@ EX01 - OK
 EX02 - NOK
 EX03 - NOK
 EX04 - NOK
-EX05 - NOK
+EX05 - OK
 EX06 - NOK
 EX07 - NOK
 EX08 - NOK
@@ -331,10 +331,10 @@ EX73 - NOK
 
 --------------------------------------------------------------------------------
 Lista_8 - Recursão
-EX01 - NOK
-EX02 - NOK
-EX03 - NOK
-EX04 - NOK
+EX01 - OK
+EX02 - OK
+EX03 - OK
+EX04 - OK
 EX05 - NOK
 EX06 - NOK
 EX07 - NOK
