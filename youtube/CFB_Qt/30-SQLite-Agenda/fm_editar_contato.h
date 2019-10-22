@@ -12,7 +12,7 @@ class fm_editar_contato : public QDialog
     Q_OBJECT
 
 public:
-    explicit fm_editar_contato(QWidget *parent = nullptr);
+    explicit fm_editar_contato(QWidget *parent = nullptr, int id_contato = 0);
     ~fm_editar_contato();
 
 private:

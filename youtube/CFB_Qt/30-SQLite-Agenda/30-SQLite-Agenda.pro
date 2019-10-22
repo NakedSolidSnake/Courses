@@ -25,6 +25,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+        fm_editar_contato.cpp \
         fm_novocontato.cpp \
         fm_pesquisacontatos.cpp \
         fm_principal.cpp \
@@ -32,12 +33,14 @@ SOURCES += \
         janelalogin.cpp
 
 HEADERS += \
+        fm_editar_contato.h \
         fm_novocontato.h \
         fm_pesquisacontatos.h \
         fm_principal.h \
         janelalogin.h
 
 FORMS += \
+        fm_editar_contato.ui \
         fm_novocontato.ui \
         fm_pesquisacontatos.ui \
         fm_principal.ui \

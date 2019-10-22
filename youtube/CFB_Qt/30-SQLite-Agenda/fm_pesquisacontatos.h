@@ -18,6 +18,8 @@ public:
 private slots:
     void on_btExcluir_clicked();
 
+    void on_btEditar_clicked();
+
 private:
     Ui::fm_pesquisacontatos *ui;
 };

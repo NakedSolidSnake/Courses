@@ -1,5 +1,6 @@
 #include "fm_pesquisacontatos.h"
 #include "ui_fm_pesquisacontatos.h"
+#include "fm_editar_contato.h"
 #include <QtSql>
 #include <QMessageBox>
 
@@ -58,4 +59,14 @@ void fm_pesquisacontatos::on_btExcluir_clicked()
     }else{
         QMessageBox::warning(this, "Erro", "Erro ao excluir item");
     }
+}
+
+void fm_pesquisacontatos::on_btEditar_clicked()
+{
+    int linha = ui->twContatos->currentRow();
+    int id = ui->twContatos->item(linha, 0)->text().toInt();
+    fm_editar_contato f_editar_contato (this, id);
+    f_editar_contato.exec();
+
+    //update table widget
 }
