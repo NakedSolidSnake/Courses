@@ -15,6 +15,12 @@ public class Exemplo01 {
 		Figura2D fig1 = (l, a) -> System.out.println("Desenha retangulo de largura: " + l + " e altura: " + a);
 		fig1.desenha(8.0, 1.5);
 		
+		Retangulo ret = new Retangulo();
+		//Metodo Reference
+		Figura2D fig2 = ret::desenhaRetangulo;
+		
+		fig2.desenha(10.5, 7.0);
+		
 	}
 
 }
