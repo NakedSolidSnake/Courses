@@ -18,6 +18,10 @@ JanelaLogin::JanelaLogin(QWidget *parent) :
     }else{
         ui->statusBar->showMessage("Banco conectado", 3000);
     }
+
+    //just for debug
+    ui->leUsername->setText("solidcris");
+    ui->leSenha->setText("123456");
 }
 
 JanelaLogin::~JanelaLogin()

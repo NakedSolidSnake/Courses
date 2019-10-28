@@ -4,6 +4,8 @@
 #include <QtSql>
 #include <QMessageBox>
 
+
+
 fm_pesquisacontatos::fm_pesquisacontatos(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::fm_pesquisacontatos)
@@ -38,7 +40,7 @@ fm_pesquisacontatos::fm_pesquisacontatos(QWidget *parent) :
 
 
     }else{
-        QMessageBox::warning(this, "Erro", "Erro ao pesquisar na tabela de contatos");
+        QMessageBox::warning(parent, "Erro", "Erro ao pesquisar na tabela de contatos");
     }
 }
 
@@ -69,4 +71,13 @@ void fm_pesquisacontatos::on_btEditar_clicked()
     f_editar_contato.exec();
 
     //update table widget
+    QSqlQuery query;
+    query.prepare("select * from tb_contatos where id_contato = " + QString::number(id));
+    if(query.exec()){
+        query.first();
+        ui->twContatos->setItem(linha, 1, new QTableWidgetItem(query.value(1).toString()));
+        ui->twContatos->setItem(linha, 2, new QTableWidgetItem(query.value(2).toString()));
+        ui->twContatos->setItem(linha, 3, new QTableWidgetItem(query.value(3).toString()));
+    }
 }
+
