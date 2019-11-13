@@ -10,4 +10,5 @@ add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/lib)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/TCPEcho)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/UDPEcho)
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/Signal)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/UDPEchoServer-SIGIO)
 
