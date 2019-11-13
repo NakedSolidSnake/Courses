@@ -8,6 +8,7 @@
 #include <sys/file.h>
 #include <signal.h>
 #include <errno.h>
+#include <util/util.h>
 
 #define ECHOMAX 255
 

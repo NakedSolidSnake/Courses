@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
     totalBytesRcvd += bytesRcvd;
     echoBUffer[bytesRcvd] = '\0';
-    printf(echoBUffer);
+    printf("%s\n",echoBUffer);
   }
   printf("\n");
 
