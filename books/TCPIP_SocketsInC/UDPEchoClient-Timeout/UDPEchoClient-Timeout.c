@@ -6,6 +6,7 @@
 #include <signal.h>
 #include <sys/socket.h>
 #include <arpa/inet.h>
+#include <util/util.h>
 
 #define ECHOMAX        255
 #define TIMEOUT_SECS   2
