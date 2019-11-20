@@ -1,0 +1,17 @@
+01-Demo - Just run a qml example
+02-Demo - Shows how to use id and events and bind messages
+03-DataType - How to use variables called property and how to print them
+04-PropertyBind - how to connect object atributtes without broken the link between them
+05-QtGlobalObject - How to use some methods about Qt object
+06-PropertiesandHandlers- How to connect a property state change to a method handler
+07-BasicElements - How use the Rectangle Item Text Image
+08-CustomComponent - How to create a custom item
+09-SignalSlots - How to emit a signal and capture using a slot
+10-ExternalComponentsSignal -  how to connect two entities throught signal and slot
+11-TextInput - Captures data from keyboard
+12-TextEdit - 
+13- MouseArea - How to manage clicked, drag events
+14-KeyAttachedProperty - How handle keys
+15-KeyNavegation - How to handle keys to focus other components
+16-FocusScope - it is proper container to handle custom components the get focus
+
