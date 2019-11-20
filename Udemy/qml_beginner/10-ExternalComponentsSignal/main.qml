@@ -5,5 +5,20 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("External Components with signals and slots")
+
+    Notifier{
+        id: notifierId
+        target: receiverId
+        rectColor: "yellowgreen"
+    }
+
+    Receiver{
+        id: receiverId
+        rectColor: "dodgerblue"
+        anchors.right: parent.right
+    }
+//    Component.onCompleted: {
+//        notifierId.notify.connect(receiverId.receiveInfo) //connect signal and slot
+//    }
 }
