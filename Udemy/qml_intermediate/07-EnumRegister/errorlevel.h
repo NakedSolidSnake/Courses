@@ -9,6 +9,15 @@ class ErrorLevel : public QObject
 public:
     explicit ErrorLevel(QObject *parent = nullptr);
 
+    enum ErrorValue{
+        INFORMATION,
+        WARNING,
+        DEBUG,
+        MESSAGE
+    };
+
+    Q_ENUM(ErrorValue)
+
 signals:
 
 public slots:

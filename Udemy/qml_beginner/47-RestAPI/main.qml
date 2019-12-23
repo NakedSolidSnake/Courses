@@ -64,7 +64,7 @@ Window {
                         var object = JSON.parse(response)
 
                         object.value.forEach(function(joke){
-                         mLIstModel.append({"joke" : joke.joke})
+                         mLIstModel.append({"joke" : joke.joke })
                         })
                     }else{
                         console.log("Something went wrong")

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/tcpechoclient.c
+stdio.h
+-
+stdlib.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+string.h
+-
+unistd.h
+-
+util/util.h
+-
+

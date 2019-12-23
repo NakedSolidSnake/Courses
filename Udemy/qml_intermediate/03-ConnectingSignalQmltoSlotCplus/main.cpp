@@ -1,5 +1,7 @@
 #include <QGuiApplication>
+#include <QQmlContext>
 #include <QQmlApplicationEngine>
+#include "cppsignalsender.h"
 
 int main(int argc, char *argv[])
 {
@@ -8,6 +10,11 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
+
+    CppSignalSender sender;
+
+    engine.rootContext()->setContextProperty("CppSignalSender", &sender);
+
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
         return -1;

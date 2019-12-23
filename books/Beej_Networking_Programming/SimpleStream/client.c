@@ -9,7 +9,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-#define PORT "3490"
+#define PORT "3094"
 
 #define MAXDATASIZE 100
 
@@ -71,6 +71,11 @@ int main(int argc, char *argv[])
   printf("client: connecting to %s\n", s);
 
   freeaddrinfo(servinfo);
+
+  printf("Press any key to send data\n");
+  getchar();
+
+  send(sockfd, "Hello World", strlen("Hello World"), 0);
 
   if((numbytes = recv(sockfd, buf, MAXDATASIZE + 1, 0)) == -1){
     perror("recv");

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffdc1eca-b6ef-4c70-a849-04d7f2872550" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/ConversorMoeda/app/src/main/res/drawable-v24/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/androidTest/java/com/example/festafimdeano/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/ic_launcher-web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/java/com/example/festafimdeano/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/drawable-v24/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/app/src/test/java/com/example/festafimdeano/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dev_android_iniciante/FestaFimDeAno/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/02-Connections/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/02-Connections/02-Connections.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/02-Connections/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/02-Connections/main.qml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/02-Connections/qml.qrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_beginner/47-RestAPI/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_beginner/47-RestAPI/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/01-Call_CPlusPlus.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/01-Call_CPlusPlus.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/Other.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/Other.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/cppworker.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/cppworker.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/cppworker.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/cppworker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/qml.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/01-Call_CPlusPlus/qml.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/03-ConnectingSignalQmltoSlotCplus.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/03-ConnectingSignalQmltoSlotCplus.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/cppsignalsender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/cppsignalsender.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/cppsignalsender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/cppsignalsender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/03-ConnectingSignalQmltoSlotCplus/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/04-BasicTypes.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/04-BasicTypes.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/cppclass.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/cppclass.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/cppclass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/cppclass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/04-BasicTypes/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/05-RestClient.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/05-RestClient.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/appwrapper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/appwrapper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/appwrapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/appwrapper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/05-RestClient/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/06-CustomTypes.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/06-CustomTypes.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/counter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/counter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/counter.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/counter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/06-CustomTypes/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/07-EnumRegister.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/07-EnumRegister.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/errorlevel.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/errorlevel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/07-EnumRegister/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/08-ListProperty.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/08-ListProperty.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/footballteam.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/footballteam.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/footballteam.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/footballteam.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/../qml_intermediate/08-ListProperty/player.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/Beej_Networking_Programming/SimpleStream/client.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/Beej_Networking_Programming/SimpleStream/client.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/4_1_2-Scripting/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/4_1_2-Scripting/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/PocLoader.pro" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/PocLoader.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/app1.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/app1.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/app2.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/app2.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/main.qml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/main.qml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/qml.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/qt5_cadaques/PocLoader/qml.qrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube/LinguagemC_Descomplicada/Lista11-Arquivos/Ex01.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../youtube/LinguagemC_Descomplicada/Lista11-Arquivos/Ex01.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../youtube/LinguagemC_Descomplicada/Lista11-Arquivos/arq.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../youtube/LinguagemC_Descomplicada/Lista11-Arquivos/arq.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1061" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffdc1eca-b6ef-4c70-a849-04d7f2872550" name="Default Changelist" comment="" />
+      <created>1576968995396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576968995396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="0" width="1920" height="1061" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33403695" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.32913387" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Assistant" order="4" weight="0.32954547" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/myapplication/MainActivity.kt" />
+  </component>
+</project>

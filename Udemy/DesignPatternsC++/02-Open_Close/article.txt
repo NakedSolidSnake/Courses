@@ -1,0 +1,15 @@
+for each new implementation we need to add a new comparison  
+and change the if statement to get the expected result as 
+we can see in the version 1
+
+To improve the implementation we can create an interface 
+for which type of parameter we can compare and another 
+interface to implement the filter which receives the interface 
+specification and with these interfaces it is possible to create a new 
+class that implements filter with the Class implementation which is in this
+example Product, then overrides the filter interface for this type 
+And after we can create a specifications for color and size parameters 
+which holds the responsability to return if the item attributes match
+And for compare both attributes we can a template specialization 
+to return its result if is a color or a size 
+

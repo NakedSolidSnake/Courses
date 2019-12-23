@@ -15,6 +15,15 @@ int main(int argc, char *argv[])
 
   fclose(fd);
 
+  fd = fopen("arq.txt", "r");
+  if(!fd)
+    return 1;
+
+  do{
+    c = getc(fd); 
+    printf("%c", c);
+  }while(c != EOF);
+
   
   return EXIT_SUCCESS;
 }

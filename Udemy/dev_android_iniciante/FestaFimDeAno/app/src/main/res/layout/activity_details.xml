@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="8dp"
+    tools:context=".ui.DetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:text="@string/voc_vai_participar"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        />
+
+    <CheckBox
+        android:id="@+id/chk_will_participate"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:textSize="28sp"
+        android:layout_weight="8"
+        android:layout_gravity="center"
+        android:text="@string/voc_vai_participar"
+        />
+
+    <Button
+        android:id="@+id/bt_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:padding="26dp"
+        android:textSize="16sp"
+        android:textColor="@color/colorTextWhite"
+        android:text="@string/confirmar"
+        />
+
+</LinearLayout>

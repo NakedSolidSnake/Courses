@@ -1,0 +1,8 @@
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/install/strip.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/install/local.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/list_install_components.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/tcpclient.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/tcpserver.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/edit_cache.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/rebuild_cache.dir
+/home/cssouza/Courses/books/TCPIP_SocketsInC/TCPEcho/CMakeFiles/install.dir

@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/tcpserver.dir/tcpechoserver.o  -o tcpserver -lutil 
